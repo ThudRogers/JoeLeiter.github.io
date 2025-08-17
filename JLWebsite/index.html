@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Joe Leiter</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+
+<!--Body-->
+
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <!--Breaks inserted to add space between navbar and the first heading-->
+    <br>
+    <br>
+
+    <!--Background video-->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="images/video/Typing.mp4" type="video/mp4">
+            <!--Display message if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!--Video text-->
+    <div class="Video_Text">
+        <h1 class="white-text">Welcome!</h1>
+        <strong>
+            <p class="center">
+
+                <br> My name is Joe Leiter, or Thud. Welcome to my portfolio website. On it, I will tell you about my background
+                and experience.
+                <br>
+                <br> Thank you for stopping by and enjoy!
+            </p>
+        </strong>
+    </div>
+
+    <!--About section-->
+    <div class="Row" id="About">
+        <!--Left column-->
+        <div class="Column_2">
+            <img src="images/joe.jpg" alt="Replace with your own image and description">
+        </div>
+        <!--Right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a Producer and Project Manager who loves to code! As a father, I enjoy time with my family and
+                doing Kendo. I'm also an avid gamer and enjoy playing with friends online. I am a branch member of BAFTA
+                North America
+
+                <br>
+                <br>I have a bachelors of Science in Music Production from Full Sail University and a certificate of
+                completion from <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s
+                Game Developer Boot Camp, and trained and experienced in the following web and programming languages:
+                HTML, CSS, JavaScript, SQL, C#, C++. In addition, I have experience with both Unity and Unreal Engine.
+                <br>
+                <br>I am a games industry veteran with experience on some amazing AAA titles and would love to work with
+                you on your project. <a href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GitHub section-->
+    <div class="Row" id="GitHub">
+        <!--Left column-->
+        <div class="Column_1">
+            <h1>Credits</h1>
+            <p>
+
+                Indiana Jones and the Great Circle (2024, Windows) Associate Publishing Producers<br>
+                Quake II (2023, Windows) Special Thanks<br>
+                Redfall (2023, Windows) Associate Publishing Producer<br>
+                Ghostwire: Tokyo - Prelude: The Corrupted Casefile (2022, PlayStation 5) Additional QA<br>
+                Deathloop (2021, Windows) Senior QA Tester II<br>
+                Doom Eternal: The Ancient Gods - Part One (2020, Windows) Additional Quality Assurance<br>
+                Doom Eternal (2020, Windows) Additional Quality Assurance<br>
+                The Elder Scrolls: Legends (2017, Windows) QA Tester<br>
+
+                <br>
+            </p>
+
+        </div>
+        <!--Right column-->
+        <div class="Column_2">
+            <a href="https://github.com/thudrogers" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--Contact section-->
+    <div class="Row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="images/control.jpg" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--This specifies where and how to send the form data; we are leaving it blank-->
+            <form action="" method="POST">
+                <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer>
+        <p>
+        <p class="center"> Joe Leiter: Games Industry Professional <a href="https://www.linkedin.com/in/joeleiter/"
+                target="_blank">LinkedIn</a></p>
+        <br>
+                        <q>On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.
+                </q>
+                <br> - Satoru Iwata
+                <br>
+                <br>
+        </p>
+    </footer>
+</body>
+
+</html>
